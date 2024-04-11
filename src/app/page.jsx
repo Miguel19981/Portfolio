@@ -44,19 +44,19 @@ const skills = [
 
 const articles = [
   {
-    date: 'Dec 25, 2023',
-    title: 'Miguel Squad in the house',
-    content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-    link: 'https://medium.com/the-research-nest/everything-you-need-to-know-about-react-ab24da4275ea',
+    date: 'Sep 25, 2021',
+    title: 'BYU-Pathway Missionary support',
+    content: '"BYU-Pathway Missionary Support provides essential resources and guidance to missionaries, aiding them in balancing their spiritual and educational pursuits. Through tailored programs, financial assistance, and academic advising, it empowers missionaries to continue their educational journey alongside their mission work, ensuring they are equipped for personal growth and future opportunities"',
+    link: 'https://www.byupathway.edu/',
   },
   {
-    date: 'Dec 25, 2023',
-    title: 'Lorem ipsum dolor sit amet',
-    content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-    link: 'https://medium.com/the-research-nest/everything-you-need-to-know-about-react-ab24da4275ea',
+    date: 'Jun 01, 2020',
+    title: 'TRC-MTC',
+    content: '"The TRC-MTC, or Training Resource Center for Missionary Training Centers, serves as the cornerstone for preparing missionaries for their sacred service. "',
+    link: 'https://provo.mtc.byu.edu/',
   },
   {
-    date: 'Sep 2, 2020',
+    date: 'Sep 2, 20',
     title: 'Lorem ipsum dolor sit amet',
     content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
     link: 'https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76',
@@ -69,14 +69,14 @@ const Home = () => {
       <div className="articles">
         <main>
           <div className="article-card-header">
-            <img className="avatar" src='./images/miguel.png' alt="Avatar" />
+            <img className="avatar" src='./images/Capture.PNG' alt="Avatar" />
             <div>
               <time>{/* Add your date here */}</time>
-              <h1>Software Engineer, Father, and Believer</h1>
+              <h1>Miguel Manzano</h1>
             </div>
           </div>
           <p className="intro-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Cyber Sentry: Safeguarding Digital Frontiers.
           </p>
           <div className="social-media-icons">
             <img src="./images/ficon.webp" alt="Facebook" />

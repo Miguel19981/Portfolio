@@ -3,73 +3,63 @@ import UsesSection from "../../components/UsesSection/UsesSection";
 import Profile from "../../components/Profile/Profile";
 
 export const metadata = {
+  title: 'Portfolio - Cybersecurity Tools',
+  description: 'The cybersecurity tools and equipment I use for my portfolio.',
+};
 
-  title: 'Portfolio - Uses',
-  description: 'The uses page of my portfolio.',
-}
 const items = [
   {
-    groupName: 'Workstation',
+    groupName: 'Hardware',
     items: [
       {
-        title: '16” MacBook Pro, M1 Max, 64GB RAM (2022)',
+        title: 'ThinkPad X1 Carbon Gen 9',
         description:
-          'I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations.',
+          'My primary work laptop. It offers excellent performance, security features, and durability, essential for handling cybersecurity tasks.',
       },
       {
-        title: 'Dell UltraSharp U2717D',
+        title: 'External Monitors (Dell UltraSharp U2717D)',
         description:
-          'I have two of these monitors and they’re great. I’ve had them for years and they’ve been rock solid.',
+          'Dual monitors for enhanced productivity and multitasking during cybersecurity analysis and research.',
       },
       {
-        title: 'Keychron K2',
+        title: 'Mechanical Keyboard (Ducky One 2 Mini)',
         description:
-          'I’ve been using this keyboard for a few years now and I love it. It’s wireless, has a great feel, and the battery lasts forever.',
+          'A compact and tactile keyboard optimized for long coding sessions and security operations.',
       },
       {
-        title: 'Logitech MX Master 3',
+        title: 'Wireless Mouse (Logitech MX Master 3)',
         description:
-          'I’ve been using this mouse for a few years now and it’s great. It’s wireless, has a great feel, and the battery lasts forever.',
+          'Ergonomic mouse with customizable buttons for comfortable and efficient navigation during cybersecurity tasks.',
       },
       {
-        title: 'Audio-Technica ATH-M50x',
+        title: 'Noise-Canceling Headphones (Sony WH-1000XM4)',
         description:
-          'I’ve been using these headphones for a few years now and they’re great. They’re comfortable, sound good, and are built like a tank.',
-      },
-      {
-        title: 'Rain Design mStand',
-        description:
-          'I’ve been using this stand for my MacBook Pro for a few years now and it’s great. It’s sturdy, looks good, and keeps my laptop cool.',
+          'High-quality headphones for blocking distractions and focusing during intense cybersecurity work.',
       },
     ],
   },
   {
-    groupName: 'Development',
+    groupName: 'Software',
     items: [
       {
-        title: 'Visual Studio Code',
+        title: 'Kali Linux',
         description:
-          'I use VS Code for all of my development work. It’s fast, has great extensions, and is highly customizable.',
+          'An essential operating system for penetration testing, vulnerability assessment, and ethical hacking.',
       },
       {
-        title: 'iTerm2 + Oh My Zsh',
+        title: 'Wireshark',
         description:
-          'I use iTerm2 as my terminal and Oh My Zsh as my shell. It’s a great combination. I use the Agnoster theme with the Fira Code font.',
-      },
-    ],
-  },
-  {
-    groupName: 'Design',
-    items: [
-      {
-        title: 'Figma',
-        description:
-          'I use Figma for all of my design work. It’s fast, has great collaboration features, and is highly customizable.',
+          'A powerful network protocol analyzer used for monitoring and analyzing cybersecurity threats and traffic.',
       },
       {
-        title: 'Whimsical',
+        title: 'Burp Suite',
         description:
-          'I use Whimsical for all of my wireframing and flowcharting. It’s fast, has great collaboration features, and is highly customizable.',
+          'A comprehensive cybersecurity tool for web application security testing and vulnerability scanning.',
+      },
+      {
+        title: 'Metasploit Framework',
+        description:
+          'An advanced open-source penetration testing platform used for exploit development and security assessments.',
       },
     ],
   },
@@ -79,12 +69,12 @@ const items = [
       {
         title: 'Notion',
         description:
-          'I use Notion for all of my note-taking and knowledge management. It’s fast, has great collaboration features, and is highly customizable.',
+          'A versatile tool for organizing cybersecurity notes, project management, and collaboration with team members.',
       },
       {
-        title: 'Alfred',
+        title: 'LastPass',
         description:
-          'I use Alfred for all of my productivity needs. It’s fast, has great features, and is highly customizable.',
+          'A secure password manager for generating and storing complex passwords, essential for maintaining strong security hygiene.',
       },
     ],
   },
@@ -93,9 +83,9 @@ const items = [
 export default function Uses() {
   return (
     <div>
-    <Profile
-        title="My Equipment"
-        content="As a computer science programmer, my equipment typically consists of the following:"
+      <Profile
+        title="My Cybersecurity Arsenal"
+        content="As a cybersecurity enthusiast, I rely on the following tools and equipment to tackle security challenges:"
       />
       <UsesSection items={items} />
     </div>
